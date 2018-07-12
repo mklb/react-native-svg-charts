@@ -18,12 +18,20 @@ There we will try to showcase the really cool things you can do with this librar
 This README will try to keep things as simple as possible so that everybody can get up and running as fast as possible.
 
 
-## Prerequisites
+## Automatic install & linking
 
 This library uses [react-native-svg](https://github.com/react-native-community/react-native-svg)
 to render its graphs. Therefore this library needs to be installed **AND** linked into your project to work.
 
 Other than the above dependency this library uses pure javascript and supports both iOS and Android
+
+**Note:** Stop your simulator / react packager if you have it running to prevent weird erros. If you dont have [rnpm](https://github.com/rnpm/rnpm) installed, give it a try.
+
+```
+rnpm install react-native-svg
+rnpm install d3-shape
+rnpm install react-native-svg-charts
+```
 
 ## Motivation
 
